@@ -19,7 +19,7 @@ A React-based web application that implements Instagram-like stories functionali
 
 ## Deployment link of application
 
-```Deployment link of your application```
+```https://insta-stories-assesment-lkbn.vercel.app```
 
 ## Project Structure
 
