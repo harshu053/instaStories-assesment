@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+# Instagram Stories Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that implements Instagram-like stories functionality. Built with React, TypeScript, and modern web technologies.
+
+## Features
+
+- Story viewer interface similar to Instagram
+- Story list display
+- Navigation between stories
+- Progress indicators for story duration
+- Responsive design for multiple screen sizes
+
+## Tech Stack
+
+- React 18
+- TypeScript
+- CSS3 for styling
+- Create React App as the build tool
+
+## Deployment link of application
+
+```Deployment link of your application```
+
+## Project Structure
+
+```
+src/
+  ├── components/        # React components
+  │   ├── StoryList.tsx    # Story list component
+  │   └── StoryViewer.tsx  # Story viewer component
+  ├── data/             # Data files
+  │   └── stories.ts      # Story data
+  ├── styles/           # CSS styles
+  │   ├── StoryList.css
+  │   └── StoryViewer.css
+  └── App.tsx           # Main application component
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone [your-repo-url]
+cd my-app
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
+The application will open in your default browser at `http://localhost:3000`.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App
 
-### `npm start`
+## Contributing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## License
 
-### `npm test`
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Acknowledgments
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Inspired by Instagram Stories
+- Built with Create React App
+- Uses TypeScript for type safety

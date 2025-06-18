@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
+import { StoryList } from './components/StoryList';
+import { StoryViewer } from './components/StoryViewer';
+import { stories } from './data/stories';
 import './App.css';
 
 function App() {
+  const [selectedStory, setSelectedStory] = useState<string | null>(null);
+
+  const handleStoryClick = (userId: string) => {
+    setSelectedStory(userId);
+  };
+
+  const selectedStoryData = stories.find(story => story.id === selectedStory);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <StoryList
+        stories={stories}
+        onStoryClick={handleStoryClick}
+      />
+      {selectedStory && selectedStoryData && (
+        <StoryViewer
+          story={selectedStoryData}
+          onClose={() => setSelectedStory(null)}
+        />
+      )}
     </div>
   );
 }
