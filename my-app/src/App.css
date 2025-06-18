@@ -9,6 +9,18 @@
   max-width: 100vw;
   min-height: 100vh;
   background-color: #fafafa;
+
+  /* img{
+    width: 50px;
+  } */
+}
+
+.logo{
+   padding-top: 16px;
+   padding-left: 16px;
+  img{
+    width: 90px;
+  }
 }
 
 body {

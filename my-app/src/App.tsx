@@ -15,6 +15,9 @@ function App() {
 
   return (
     <div className="app">
+      <div className='logo'>
+        <img src='./Instagram_logo.svg' alt='logo'/>
+      </div> 
       <StoryList
         stories={stories}
         onStoryClick={handleStoryClick}

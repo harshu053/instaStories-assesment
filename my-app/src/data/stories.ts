@@ -24,6 +24,26 @@ export const stories: Story[] = [
     id: '4',
     imageUrl: ['https://picsum.photos/400/600?random=4'],
     username: 'Sai'
+  },
+  {
+    id: '5',
+    imageUrl: ['https://picsum.photos/400/600?random=13'],
+    username: 'Mayur'
+  },
+  {
+    id: '6',
+    imageUrl: ['https://picsum.photos/400/600?random=10'],
+    username: 'mhir'
+  },
+  {
+    id: '7',
+    imageUrl: ['https://picsum.photos/400/600?random=11'],
+    username: 'palak'
+  },
+  {
+    id: '8',
+    imageUrl: ['https://picsum.photos/400/600?random=13'],
+    username: 'deepika'
   }
 ];
 
